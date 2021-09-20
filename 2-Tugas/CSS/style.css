@@ -1,0 +1,128 @@
+body {
+  background-color: #312e2e;
+  margin: 20px 100px 0px 100px;
+}
+.table1 {
+  border: 0;
+  width: 100%;
+  background-color: #ffb796;
+}
+.table2 {
+  border: 0;
+  width: 90%;
+  align-items: center;
+}
+.judulheader {
+  font-family: Verdana;
+  margin-left: 30px;
+  font-size: 40px;
+  color: #f6f6f6;
+}
+.textheader {
+  font-family: Verdana;
+  font-size: 20px;
+  color: black;
+}
+.header1 {
+  text-decoration: none;
+}
+.subheader {
+  text-align: center;
+  font-family: verdana;
+  font-size: 30px;
+  color: #efeff2;
+}
+h3 {
+  font-size: 25px;
+  font-family: Verdana;
+  color: #efeff2;
+}
+.halaman {
+  border: 1;
+  width: 100%;
+  padding: 20;
+  border-spacing: 0;
+  background-color: #fa8955;
+}
+.header2 {
+  width: 100%;
+  text-align: center;
+}
+.utama {
+  width: 100%;
+  background-color: #cbcbd6;
+}
+.judulisi {
+  text-align: right;
+  font-family: verdana;
+  font-size: 50px;
+  color: blueviolet;
+}
+.container {
+  margin-left: 80px;
+}
+.garis1 {
+  color-profile: black;
+}
+.bgmaintable {
+  width: 100%;
+  background-color: #c2c0c3;
+}
+.maintable2 {
+  border: 0;
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
+}
+.judulkedua {
+  font-size: 20px;
+  text-align: center;
+  column-span: 2;
+  background-color: #c2c0c3;
+}
+ol {
+  margin-left: 55px;
+}
+.linktugas {
+  font-family: verdana;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.footer {
+  text-align: center;
+  background-color: black;
+}
+.txfooter {
+  text-align: center;
+  font-family: Verdana;
+  color: white;
+}
+
+/* =================================CSS PRODI================================*/
+.mainprodi {
+  margin: 20px 80px 20px 80px;
+}
+
+.visi {
+  border: 2px;
+}
+.containerprodi {
+  color: #cbcbd6;
+}
+.head {
+  background-color: #3a2e28;
+}
+.mainprodi {
+}
+
+/* ==============================CSS BORUNDI===================================*/
+
+.burundi {
+  margin: 20px 100px 0px 20px;
+  color: #ffffff;
+}
+.lmburundi {
+  align: center;
+  width: 10%;
+}

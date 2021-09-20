@@ -1,0 +1,72 @@
+body {
+}
+.main {
+  margin: 100px 500px 0px 500px;
+}
+.heading {
+  align-items: center;
+  background: rgba(9, 184, 237, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.mainprodi {
+  margin: 50px 200px 0px 200px;
+  font-family: verdana;
+}
+.bawah {
+  margin: 0px 200px 200px 200px;
+}
+button {
+  border-radius: 17px;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+}
+p {
+  font-family: verdana;
+}
+pre {
+  align-items: center;
+  font-size: 20px;
+  font-family: verdana;
+  margin: 90px 0px 20px 0px;
+  background: rgba(9, 184, 237, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.bgpre {
+}
+
+.head {
+  border: 2.5px solid rgb(218, 124, 124);
+}
+.pre {
+  font-family: verdana;
+}
+.sepeda {
+  width: 500px;
+}
+@media (min-width: 720px) {
+  .main {
+    margin: 100px 200px 0px 200px;
+  }
+  .mainprodi {
+    margin: 50px 200px 0px 200px;
+    font-family: verdana;
+  }
+}
+
+@media (min-width: 1092px) {
+  .main {
+    margin: 100px 500px 0px 500px;
+  }
+  .mainprodi {
+    margin: 50px 200px 0px 200px;
+    font-family: verdana;
+  }
+}

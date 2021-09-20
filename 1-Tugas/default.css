@@ -1,0 +1,119 @@
+
+/** BASIC */
+
+body {
+	font: normal .8em Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #336600;
+}
+
+ul {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+a {
+	color: #336600;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/** HEADER */
+
+#header {
+	width: 700px;
+	height: 80px;
+	margin: 0px auto;
+	background: #CDE2A1 url(images/img01.gif) no-repeat left top;
+}
+
+#header h1 {
+	float: left;
+	margin: 0px;
+	padding: 35px 0px 0px 10px;
+}
+
+#header h2 {
+	float: right;
+	margin: 0px;
+	padding: 43px 10px 0px 0px;
+	background: url(images/img02.gif) no-repeat right top;
+}
+
+/** MENU */
+
+#menu {
+	width: 700px;
+	height: 30px;
+	margin: 0px auto;
+	background: url(images/img03.gif) repeat-x left top;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: smaller;
+	font-weight: bold;
+	color: #336600;
+}
+
+#menu a:hover {
+	color: #FFFFFF;
+}
+
+/** CONTENT */
+
+#content {
+	width: 700px;
+	margin: 0px auto;
+	background: url(images/img04.gif) repeat-y left top;
+}
+
+#columnA {
+	float: right;
+	width: 440px;
+	padding: 20px;
+}
+
+#columnB {
+	float: left;
+	width: 200px;
+	padding: 20px 10px
+}
+
+#columnB h2 {
+	font-size: large;
+}
+
+/** FOOTER */
+
+#footer {
+	width: 700px;
+	margin: 0px auto;
+	background: #BED985 url(images/img05.gif) no-repeat left bottom;
+}
+
+#footer p {
+	margin: 0px;
+	padding: 5px 10px;
+	background: url(images/img06.gif) no-repeat right bottom;
+	font-size: smaller;
+}
