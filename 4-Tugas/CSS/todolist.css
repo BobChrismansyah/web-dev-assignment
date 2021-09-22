@@ -1,0 +1,84 @@
+body {
+  background-image: url(../img/background.jpg);
+}
+.isi {
+  padding-top: 250px;
+}
+.bg {
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-top: 50px;
+  padding-bottom: 90px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+h1 {
+  text-align: center;
+  color: #341394;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-left: 600px;
+  margin-right: 600px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(232, 118, 118, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.item_input {
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(196, 20, 4);
+  font-size: 1.5rem;
+  width: 245px;
+}
+.edit {
+  background: none;
+  outline: none;
+  border: none;
+  color: #000000;
+  font-size: 0.8rem;
+  font-family: 'verdana', sans-serif;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+p {
+  padding-bottom: 50px;
+  color: #000000;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'verdana', sans-serif;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.remove {
+  background: none;
+  outline: none;
+  border: none;
+  color: rgb(2, 73, 139);
+  font-size: 1rem;
+  font-family: 'Verdana', sans-serif;
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --background: rgb(4, 7, 10);
+  --text: rgb(0, 0, 0);
+  --highlight: rgb(83, 83, 83);
+}
+body {
+  background: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: 1.5s background ease;
+}
+.theme-switch {
+  --background: rgb(158, 158, 158);
+  --text: rgb(0, 0, 0);
+  color: var(--text);
+  width: 60px;
+  height: 20px;
+  background: var(--highlight);
+  border-radius: 50px;
+  position: relative;
+}
+.theme-switch .switch {
+  background: white;
+  width: 14px;
+  height: 14px;
+  background: var(--background);
+  border-radius: 100%;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  transition: 0.5s all ease;
+}
+.light-theme {
+  --background: rgb(161, 174, 179);
+  --text: rgb(17, 7, 7);
+  background: var(--background);
+}
+.light-theme .theme-switch {
+  background: var(--text);
+}
+.light-theme .theme-switch .switch {
+  transform: translateX(37px);
+}
+.light-theme a {
+  color: var(--text);
+}
+/*Prodi */
+.mainprodi {
+  margin: 20px 80px 20px 80px;
+}
+
+.visi {
+  border: 2px;
+}
+.containerprodi {
+  color: #cbcbd6;
+}
+.head {
+  background-color: #3a2e28;
+}
+.mainprodi {
+}
+/* Burundi*/
+
+.burundi {
+  margin: 20px 100px 0px 20px;
+  color: #ffffff;
+}
+.lmburundi {
+  align: center;
+  width: 10%;
+}
