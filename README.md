@@ -2,15 +2,21 @@
 
 ## menggunakan bootstrap
 
-- top - for the vertical top position
-- start - for the horizontal left position (in LTR)
-- bottom - for the vertical bottom position
-- end - for the horizontal right position (in LTR)
-- Where position is one of:
+top - for the vertical top position
 
-- 0 - for 0 edge position
-- 50 - for 50% edge position
-- 100 - for 100% edge position
+start - for the horizontal left position (in LTR)
+
+bottom - for the vertical bottom position
+
+end - for the horizontal right position (in LTR)
+
+#### Where position is one of:
+
+0 - for 0 edge position
+
+50 - for 50% edge position
+
+100 - for 100% edge position
 
 
 ```html
@@ -28,7 +34,7 @@
 * m - for classes that set margin
 * p - for classes that set padding
 
-Where sides is one of:
+#### Where sides is one of:
 
 * t - for classes that set margin-top or padding-top
 * b - for classes that set margin-bottom or padding-bottom
@@ -37,8 +43,9 @@ Where sides is one of:
 * x - for classes that set both *-left and *-right
 * y - for classes that set both *-top and *-bottom
 
-blank - for classes that set a margin or padding on all 4 sides of the element
-Where size is one of:
+
+#### blank - for classes that set a margin or padding on all 4 sides of the element 
+####Where size is one of:
 
 0 - for classes that eliminate the margin or padding by setting it to 0
 
