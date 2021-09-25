@@ -25,8 +25,9 @@
 ```
 
 
-m - for classes that set margin
-p - for classes that set padding
+* m - for classes that set margin
+* p - for classes that set padding
+
 Where sides is one of:
 
 t - for classes that set margin-top or padding-top
