@@ -2,16 +2,18 @@
 
 ## menggunakan bootstrap
 
-top - for the vertical top position
-start - for the horizontal left position (in LTR)
-bottom - for the vertical bottom position
-end - for the horizontal right position (in LTR)
-Where position is one of:
+- top - for the vertical top position
+- start - for the horizontal left position (in LTR)
+- bottom - for the vertical bottom position
+- end - for the horizontal right position (in LTR)
+- Where position is one of:
 
-0 - for 0 edge position
-50 - for 50% edge position
-100 - for 100% edge position
+- 0 - for 0 edge position
+- 50 - for 50% edge position
+- 100 - for 100% edge position
 
+
+```html
 <div class="position-relative">
   <div class="position-absolute top-0 start-0"></div>
   <div class="position-absolute top-0 end-0"></div>
@@ -20,6 +22,7 @@ Where position is one of:
   <div class="position-absolute bottom-0 start-0"></div>
   <div class="position-absolute bottom-0 end-0"></div>
 </div>
+```
 
 
 m - for classes that set margin
