@@ -1,6 +1,6 @@
 # web-dev-assignment
 
-### tugas pemrograman web
+## Tugas pemrograman web
 
 ## menggunakan bootstrap
 
